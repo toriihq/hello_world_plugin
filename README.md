@@ -19,4 +19,5 @@ This lightweight and versatile plugin seamlessly embeds a simple yet dynamic wid
 2. Enjoy the instant addition of the widget to every page, creating a more engaging user experience.
 
 ---
+
 **Note:** The "Hello World Plugin" is not just a greeting; it's a small yet impactful way to enhance user interaction and foster a sense of community within your application. Install today to add a touch of personalization to your user experience!
