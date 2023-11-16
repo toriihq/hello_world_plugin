@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "categories": ["Productivity"],
+  "callbackUrl": "A_VALID_CALLBACK_URL",
+  "config": {
+    "consent": {
+      "description": "Select one of the available app user statuses. The plugin will only fetch users who match the status you selected.",
+      "fields": [
+        {
+          "name": "status",
+          "type": "dropdown",
+          "label": "User Status",
+          "options": [
+            {
+              "label": "Active",
+              "value": "active"
+            },
+            {
+              "label": "Deleted",
+              "value": "deleted"
+            }
+          ]
+        }
+      ]
+    },
+    "app": {
+      "fields": [
+        {
+          "key": "username",
+          "type": "singleLine",
+          "label": "Random application user"
+        }
+      ]
+    },
+    "widgets": [
+      {
+        "type": "KeyValue",
+        "fields": [
+          {
+            "key": "app.username"
+          }
+        ]
+      }
+    ]
+  }
+}
